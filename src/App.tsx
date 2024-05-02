@@ -2,6 +2,7 @@ import React from "react";
 import First from "./components/page1";
 import Second from "./components/page2";
 import Third from "./components/page3";
+import Forth from "./components/page4";
 import Home from "./components/home";
 import "./App.css";
 
@@ -31,6 +32,7 @@ function App() {
       {step === 1 && <First setStep={setStep} />}
       {step === 2 && <Second setStep={setStep} />}
       {step === 3 && <Third setStep={setStep} />}
+      {step === 4 && <Forth setStep={setStep} />}
     </div>
   );
 }

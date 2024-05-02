@@ -9,7 +9,10 @@ interface interf {
 const Index: React.FC<interf> = ({ setStep }) => {
   let timer: any = React.useRef(null);
   React.useEffect(() => {
-    timer.current = setTimeout(() => setStep(4), 5000);
+    timer.current = setTimeout(() => {
+      console.log("timer");
+      setStep(5);
+    }, 5000);
   });
   return (
     <div className="section-fetching">
@@ -24,8 +27,8 @@ const Index: React.FC<interf> = ({ setStep }) => {
           }}
         />
       </div>
-      <div className="section-step-31">
-        <img src={Car} alt="car" className="car-image-3" />
+      <div className="section-step-41">
+        <img src={Car} alt="car" className="car-image-4" />
       </div>
     </div>
   );
