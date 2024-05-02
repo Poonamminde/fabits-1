@@ -1,0 +1,17 @@
+.section-step-31 {
+  position: relative;
+  background: url("../../assets/Animation4.png");
+  background-repeat: no-repeat;
+  height: 534px;
+  width: 360px;
+}
+.car-image-3 {
+  position: absolute;
+  top: 350px;
+  height: 60px;
+  width: 70px;
+  animation-name: identifier;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}

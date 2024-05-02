@@ -68,3 +68,9 @@ body {
   height: 25px;
   border-radius: 20px;
 }
+.section-fetching {
+  position: absolute;
+  top: 25vh;
+  height: 75vh;
+  overflow: hidden;
+}
