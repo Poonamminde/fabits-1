@@ -1,5 +1,6 @@
 import React from "react";
 import First from "./components/page1";
+import Second from "./components/page2";
 import Home from "./components/home";
 import "./App.css";
 
@@ -27,6 +28,7 @@ function App() {
     <div style={{ position: "relative" }}>
       <Home setStep={setStep} />
       {step === 1 && <First setStep={setStep} />}
+      {step === 2 && <Second setStep={setStep} />}
     </div>
   );
 }

@@ -22,6 +22,22 @@ body {
   width: 35px;
   margin: 10px;
 }
+.section {
+  position: absolute;
+  top: 10vh;
+  height: 90vh;
+  overflow: hidden;
+}
+.section-heading {
+  position: absolute;
+  top: 10px;
+  padding: 10px;
+  line-height: 30px;
+}
+.section-heading h2 {
+  font-size: 24px;
+  color: rgba(29, 59, 122, 1);
+}
 
 @keyframes identifier {
   0%,
@@ -34,4 +50,21 @@ body {
   50.1% {
     transform: translateX(0px);
   }
+}
+.step-heading {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.step-heading h3 {
+  width: 277px;
+  size: 20px;
+}
+.pagination {
+  background-color: black;
+  color: white;
+  padding: 0px 10px;
+  width: 40px;
+  height: 25px;
+  border-radius: 20px;
 }

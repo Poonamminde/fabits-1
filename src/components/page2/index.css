@@ -1,0 +1,80 @@
+.section-1 {
+  position: relative;
+  background: url("../../assets/Animation2.svg");
+  background-repeat: no-repeat;
+  height: 348px;
+  width: 360px;
+}
+.car-image {
+  position: absolute;
+  top: 200px;
+  height: 60px;
+  width: 70px;
+  animation-name: identifier;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+.section-2 {
+  height: 340px;
+  width: 100%;
+  margin-top: -59px;
+  padding: 15px 10px;
+  background-image: linear-gradient(#d8ea72, white);
+}
+.section-2 p {
+  margin-top: 20px;
+}
+.option-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px 0px;
+  margin-bottom: 10px;
+}
+.option-container div {
+  color: rgba(57, 76, 3, 1);
+  font-weight: 600;
+  padding: 5px 20px;
+  size: 16px;
+}
+
+.option-container input {
+  background-color: rgba(245, 248, 204, 1);
+  border: 1px solid rgba(234, 240, 187, 1);
+  width: 160px;
+  height: 44px;
+  size: 16px;
+  border-radius: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.option-selected {
+  border: 1px solid rgba(131, 167, 32, 1);
+  border-radius: 12px;
+}
+.option-container #prev {
+  height: 48px;
+  width: 56px;
+  background-color: rgba(245, 248, 204, 1);
+  border: 2px solid rgba(131, 167, 32, 0.1);
+  padding: 12px 16px 12px 16px;
+  border-radius: 12px;
+}
+.option-container #next {
+  background-color: rgba(131, 167, 32, 1);
+  width: 256px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-radius: 12px;
+}
+#error {
+  color: red;
+  background-color: rgb(213, 237, 247);
+  size: 10px;
+}

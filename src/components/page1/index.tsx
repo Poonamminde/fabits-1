@@ -21,16 +21,19 @@ const Index: React.FC<interf> = ({ setStep }) => {
         />
       </div>
       <div>
-        <div className="section-1">
+        <div className="section-step-11">
           {/*<img src={Image} alt="background" />*/}
           <div className="section-heading">
             <h2>Get started with Fabits</h2>
             <p>Answer a few questions to begin onboarding</p>
           </div>
-          <img src={Car} alt="car" className="car-image" />
+          <img src={Car} alt="car" className="car-image-step-1" />
         </div>
-        <div className="section-2">
-          <h2>How much trading experience do you have?</h2>
+        <div className="section-step-12">
+          <div className="step-heading">
+            <h3>How much trading experience do you have?</h3>
+            <div className="pagination">1/2</div>
+          </div>
           <div className="option-container">
             <div
               className={
@@ -79,7 +82,7 @@ const Index: React.FC<interf> = ({ setStep }) => {
           </div>
           <div className="button" onClick={() => setStep(2)}>
             <h3>Next</h3>
-            <img src={RightArrow} alt="" />
+            <img src={RightArrow} alt="next" />
           </div>
         </div>
       </div>
