@@ -1,0 +1,103 @@
+.section {
+  position: absolute;
+  top: 10vh;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.section-1 {
+  position: relative;
+  background: url("../../assets/Animation1.svg");
+  background-repeat: no-repeat;
+  height: 348px;
+}
+.section-heading {
+  position: absolute;
+  top: 10px;
+  padding: 10px;
+  line-height: 30px;
+}
+.section-heading h2 {
+  font-size: 24px;
+  color: rgba(29, 59, 122, 1);
+}
+.car-image {
+  position: absolute;
+  top: 245px;
+  height: 60px;
+  width: 70px;
+  animation-name: identifier;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes identifier {
+  0%,
+  100% {
+    transform: translateX(150px);
+  }
+  50% {
+    transform: translateX(350px);
+  }
+  50.1% {
+    transform: translateX(0px);
+  }
+}
+
+.option-item {
+  height: 68px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.option-item-selected {
+  border: 2px solid rgba(131, 167, 32, 1);
+  border-radius: 12px;
+}
+.section-2 {
+  height: 340px;
+  width: 360px;
+  margin-top: -5px;
+  padding: 15px 10px;
+  background-image: linear-gradient(#d8ea72, white);
+}
+.section-2 h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.option-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  padding: 25px 0px;
+}
+.option-item h4 {
+  color: rgba(57, 76, 3, 1);
+  font-weight: 500;
+  width: 100%;
+  font-size: 16px;
+}
+.option-item p {
+  color: rgba(103, 124, 43, 1);
+  width: 100%;
+  font-size: 14px;
+}
+.button {
+  background-color: rgba(131, 167, 32, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 12px;
+  height: 48px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 10px 0px;
+}
+.button h3 {
+  color: white;
+  font-weight: 400;
+}
+.button img {
+  width: 30px;
+}
