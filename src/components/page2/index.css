@@ -16,7 +16,7 @@
   animation-timing-function: linear;
 }
 .section-2 {
-  height: 340px;
+  height: 500px;
   width: 100%;
   margin-top: -59px;
   padding: 15px 10px;
@@ -62,6 +62,7 @@
   border: 2px solid rgba(131, 167, 32, 0.1);
   padding: 12px 16px 12px 16px;
   border-radius: 12px;
+  margin: 10px 0px 10px;
 }
 .option-container #next {
   background-color: rgba(131, 167, 32, 1);
@@ -72,9 +73,12 @@
   align-items: center;
   color: white;
   border-radius: 12px;
+  margin: 10px 0px 10px;
+  padding: 12px 16px 12px 16px;
 }
 #error {
   color: red;
   background-color: rgb(213, 237, 247);
-  size: 10px;
+  font-size: 10px;
+  height: 20px;
 }

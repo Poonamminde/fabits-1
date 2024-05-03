@@ -37,7 +37,7 @@
   border-radius: 12px;
 }
 .section-step-12 {
-  height: 340px;
+  height: 500px;
   width: 360px;
   margin-top: -5px;
   padding: 15px 10px;
@@ -78,7 +78,7 @@
   height: 48px;
   box-sizing: border-box;
   width: 100%;
-  margin: 10px 0px;
+  margin: 40px 0px 10px;
 }
 .button h3 {
   color: white;

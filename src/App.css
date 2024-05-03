@@ -3,11 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+html {
   width: 360px;
+}
+body {
+  width: 100%;
   height: 100vh;
   box-sizing: border-box;
   background-color: rgb(218, 214, 214);
+  margin: 0;
+  padding: 0;
 }
 .blur {
   filter: blur(1.5px); /* Adjust the amount of blur as needed */
@@ -68,9 +73,12 @@ body {
   height: 25px;
   border-radius: 20px;
 }
-.section-fetching {
+.section-fetch {
   position: absolute;
   top: 25vh;
   height: 75vh;
   overflow: hidden;
+}
+.section-fetching {
+  position: relative;
 }

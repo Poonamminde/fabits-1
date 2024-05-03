@@ -12,21 +12,24 @@ const Index: React.FC<interf> = ({ setStep }) => {
     timer.current = setTimeout(() => setStep(4), 5000);
   });
   return (
-    <div className="section-fetching">
-      <div className="close">
-        <img
-          src={CloseIcon}
-          alt="close"
-          className="close-icon"
-          onClick={() => {
-            setStep(0);
-            clearTimeout(timer.current);
-          }}
-        />
+    <div className="section-fetch">
+      <div className="section-fetching">
+        <div className="close">
+          <img
+            src={CloseIcon}
+            alt="close"
+            className="close-icon"
+            onClick={() => {
+              setStep(0);
+              clearTimeout(timer.current);
+            }}
+          />
+        </div>
+        <div className="section-step-31">
+          <img src={Car} alt="car" className="car-image-3" />
+        </div>
       </div>
-      <div className="section-step-31">
-        <img src={Car} alt="car" className="car-image-3" />
-      </div>
+      <div className="container"></div>
     </div>
   );
 };

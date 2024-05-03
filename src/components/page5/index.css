@@ -1,0 +1,60 @@
+.section-result {
+  position: absolute;
+
+  top: 0vh;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.section-step-51 {
+  position: relative;
+}
+.section-step-52 {
+  background-image: url("../../assets/Animation1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(1.8px);
+  width: 100%;
+  height: 92.5vh;
+  position: relative;
+  border-top-right-radius: 45px;
+}
+#section-step-53 {
+  position: absolute;
+  top: 18%;
+  height: 500px;
+  width: 100%;
+}
+.card-container {
+  background-color: white;
+  border-radius: 20px;
+  height: 146px;
+  width: 90%;
+  margin: 15px;
+  padding: 10px;
+}
+.card-section {
+  display: flex;
+  gap: 25px;
+  margin: 5px;
+}
+.card-section div h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(29, 59, 122, 1);
+}
+.card-section div h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(94, 120, 174, 1);
+}
+.card-section div p {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(94, 120, 174, 1);
+}
+.card-section div h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(29, 59, 122, 1);
+}

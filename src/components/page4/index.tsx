@@ -10,25 +10,27 @@ const Index: React.FC<interf> = ({ setStep }) => {
   let timer: any = React.useRef(null);
   React.useEffect(() => {
     timer.current = setTimeout(() => {
-      console.log("timer");
       setStep(5);
     }, 5000);
   });
   return (
-    <div className="section-fetching">
-      <div className="close">
-        <img
-          src={CloseIcon}
-          alt="close"
-          className="close-icon"
-          onClick={() => {
-            setStep(0);
-            clearTimeout(timer.current);
-          }}
-        />
-      </div>
-      <div className="section-step-41">
-        <img src={Car} alt="car" className="car-image-4" />
+    <div className="section-fetch">
+      <div className="section-fetching">
+        <div className="close">
+          <img
+            src={CloseIcon}
+            alt="close"
+            className="close-icon"
+            onClick={() => {
+              setStep(0);
+              clearTimeout(timer.current);
+            }}
+          />
+        </div>
+        <div className="section-step-41">
+          <img src={Car} alt="car" className="car-image-4" />
+        </div>
+        <div className="container"></div>
       </div>
     </div>
   );
