@@ -56,6 +56,14 @@ body {
     transform: translateX(0px);
   }
 }
+@keyframes onboarding {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(350px);
+  }
+}
 .step-heading {
   display: flex;
   flex-wrap: wrap;

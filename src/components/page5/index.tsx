@@ -28,64 +28,82 @@ const index: React.FC<interf> = ({ setStep }) => {
           <p>Aadhaar link found</p>
         </div>
         <div id="section-step-53">
-          <div className="card-container">
-            <div className="card-section">
-              <img src={Profile} alt="profile" />
-              <div>
-                <h1>CMRPMXXXXF</h1>
-                <h3>ASHAR RAI MUJEEB</h3>
+          <a
+            href="https://www.linkedin.com/in/poonam-minde-029809235/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="card-container">
+              <div className="card-section">
+                <img src={Profile} alt="profile" />
+                <div>
+                  <h1>CMRPMXXXXF</h1>
+                  <h3>ASHAR RAI MUJEEB</h3>
+                </div>
+              </div>
+              <div className="card-section">
+                <div>
+                  <p>Fetched Via</p>
+                  <h4>NSDL</h4>
+                </div>
+                <div>
+                  <p>Last Updated</p>
+                  <h4>24/04/2024</h4>
+                </div>
               </div>
             </div>
-            <div className="card-section">
-              <div>
-                <p>Fetched Via</p>
-                <h4>NSDL</h4>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/poonam-minde-029809235/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="card-container">
+              <div className="card-section">
+                <img src={Fingerprint} alt="profile" />
+                <div>
+                  <h1>Address</h1>
+                  <h3>Aadhaar </h3>
+                  <h3>UID</h3>
+                </div>
               </div>
-              <div>
-                <p>Last Updated</p>
-                <h4>24/04/2024</h4>
-              </div>
-            </div>
-          </div>
-          <div className="card-container">
-            <div className="card-section">
-              <img src={Fingerprint} alt="profile" />
-              <div>
-                <h1>Address</h1>
-                <h3>Aadhaar </h3>
-                <h3>UID</h3>
-              </div>
-            </div>
-            <div className="card-section">
-              <div>
-                <p>Fetched Via</p>
-                <h4>Digio</h4>
-              </div>
-              <div>
-                <p>Date of Birth</p>
-                <h4>18/10/1994</h4>
+              <div className="card-section">
+                <div>
+                  <p>Fetched Via</p>
+                  <h4>Digio</h4>
+                </div>
+                <div>
+                  <p>Date of Birth</p>
+                  <h4>18/10/1994</h4>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="card-container">
-            <div className="card-section">
-              <img src={HomeIcon} alt="profile" />
-              <div>
-                <h1>Address</h1>
-                <h3>16/2, 8 Jat Regiment, c/o 56 APO</h3>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/poonam-minde-029809235/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="card-container">
+              <div className="card-section">
+                <img src={HomeIcon} alt="profile" />
+                <div>
+                  <h1>Address</h1>
+                  <h3>16/2, 8 Jat Regiment, c/o 56 APO</h3>
+                </div>
+              </div>
+              <div className="card-section">
+                <div>
+                  <p>Fetched Via</p>
+                  <h4>Digio</h4>
+                </div>
+                <div>
+                  <p>Address Type</p>
+                  <h4>Correspondence</h4>
+                </div>
               </div>
             </div>
-            <div className="card-section">
-              <div>
-                <p>Fetched Via</p>
-                <h4>Digio</h4>
-              </div>
-              <div>
-                <p>Address Type</p>
-                <h4>Correspondence</h4>
-              </div>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

@@ -23,3 +23,6 @@
   padding: 15px 10px;
   background-image: linear-gradient(#d8ea72, #eaf6aa);
 }
+.blur-effect {
+  filter: blur(1px);
+}

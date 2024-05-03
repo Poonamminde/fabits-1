@@ -58,3 +58,6 @@
   font-weight: 600;
   color: rgba(29, 59, 122, 1);
 }
+a {
+  text-decoration: none;
+}

@@ -9,24 +9,12 @@
   top: 244px;
   height: 60px;
   width: 70px;
-  animation-name: identifier;
-  animation-duration: 6s;
+  animation-name: onboarding;
+  animation-duration: 8s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
-@keyframes identifier {
-  0%,
-  100% {
-    transform: translateX(150px);
-  }
-  50% {
-    transform: translateX(350px);
-  }
-  50.1% {
-    transform: translateX(0px);
-  }
-}
-
 .option-item {
   height: 75px;
   padding: 20px 15px;

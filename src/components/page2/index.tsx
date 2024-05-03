@@ -14,7 +14,7 @@ const Index: React.FC<interf> = ({ setStep }) => {
   const [error, setError] = React.useState(0);
   const handleSubmit = (e: any) => {
     console.log(pan.length);
-    if (pan.length === 10 && option !== 0) {
+    if (pan.trim().length === 10 && option !== 0) {
       console.log("error");
       setStep(3);
     }
@@ -72,7 +72,8 @@ const Index: React.FC<interf> = ({ setStep }) => {
             </div>
             {error === 1 && (
               <div id="error">
-                select verification method and enter PAN number
+                select verification method and enter PAN number which 10
+                character.
               </div>
             )}
             <div className="option-container">

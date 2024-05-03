@@ -7,13 +7,14 @@
 }
 .car-image {
   position: absolute;
-  top: 200px;
+  top: 190px;
   height: 60px;
   width: 70px;
-  animation-name: identifier;
-  animation-duration: 6s;
+  animation-name: onboarding;
+  animation-duration: 8s;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 .section-2 {
   height: 500px;

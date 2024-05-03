@@ -9,9 +9,16 @@ interface interf {
 const Index: React.FC<interf> = ({ setStep }) => {
   let timer: any = React.useRef(null);
   React.useEffect(() => {
+    setTimeout(
+      () =>
+        document
+          .getElementsByClassName("section-fetch")[0]
+          .classList.add("blur-effect"),
+      8000
+    );
     timer.current = setTimeout(() => {
       setStep(5);
-    }, 5000);
+    }, 9000);
   });
   return (
     <div className="section-fetch">
