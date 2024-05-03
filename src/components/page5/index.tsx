@@ -1,6 +1,8 @@
 import React from "react";
 import CloseIcon from "../../assets/cross.svg";
 import Profile from "../../assets/profileIcon.png";
+import Fingerprint from "../../assets/fingerprint.svg";
+import HomeIcon from "../../assets/homeIcon.svg";
 import "./index.css";
 
 interface interf {
@@ -47,39 +49,40 @@ const index: React.FC<interf> = ({ setStep }) => {
           </div>
           <div className="card-container">
             <div className="card-section">
-              <img src={Profile} alt="profile" />
+              <img src={Fingerprint} alt="profile" />
               <div>
-                <h1>CMRPMXXXXF</h1>
-                <h3>ASHAR RAI MUJEEB</h3>
+                <h1>Address</h1>
+                <h3>Aadhaar </h3>
+                <h3>UID</h3>
               </div>
             </div>
             <div className="card-section">
               <div>
                 <p>Fetched Via</p>
-                <h4>NSDL</h4>
+                <h4>Digio</h4>
               </div>
               <div>
-                <p>Last Updated</p>
-                <h4>24/04/2024</h4>
+                <p>Date of Birth</p>
+                <h4>18/10/1994</h4>
               </div>
             </div>
           </div>
           <div className="card-container">
             <div className="card-section">
-              <img src={Profile} alt="profile" />
+              <img src={HomeIcon} alt="profile" />
               <div>
-                <h1>CMRPM</h1>
-                <h3>ASHAR RAI MUJEEB</h3>
+                <h1>Address</h1>
+                <h3>16/2, 8 Jat Regiment, c/o 56 APO</h3>
               </div>
             </div>
             <div className="card-section">
               <div>
                 <p>Fetched Via</p>
-                <h4>NSDL</h4>
+                <h4>Digio</h4>
               </div>
               <div>
-                <p>Last Updated</p>
-                <h4>24/04/2024</h4>
+                <p>Address Type</p>
+                <h4>Correspondence</h4>
               </div>
             </div>
           </div>

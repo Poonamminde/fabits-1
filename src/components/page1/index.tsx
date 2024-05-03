@@ -10,6 +10,14 @@ interface interf {
 }
 const Index: React.FC<interf> = ({ setStep }) => {
   const [option, setOption] = React.useState(0);
+  const [error, setError] = React.useState(false);
+  const handleNext = () => {
+    if (option !== 0) {
+      setStep(2);
+    } else {
+      setError(true);
+    }
+  };
   return (
     <div className="section">
       <div className="close">
@@ -80,7 +88,8 @@ const Index: React.FC<interf> = ({ setStep }) => {
               <p>{">5Y"}</p>
             </div>
           </div>
-          <div className="button" onClick={() => setStep(2)}>
+          {error === true && <div id="error">select experience</div>}
+          <div className="button" onClick={handleNext}>
             <h3>Next</h3>
             <img src={RightArrow} alt="next" />
           </div>
