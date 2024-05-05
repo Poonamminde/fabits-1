@@ -5,6 +5,8 @@
   background-size: cover;
   height: 543px;
   width: 360px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
 }
 .car-image-3 {
   position: absolute;

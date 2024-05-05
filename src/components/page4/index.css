@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   height: 534px;
   width: 360px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
 }
 .car-image-4 {
   position: absolute;
